@@ -6,8 +6,8 @@ body{
 #section-1{
     background-image: linear-gradient(rgba(29, 38, 113, 0.5), rgba(195, 55, 100, 0.5)), url("images/donation14.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 10%;
+    background-size: 105% 100%;
+    padding-bottom: 11%;
     margin-bottom: 7%;
 }
 
@@ -167,13 +167,14 @@ body{
 #section-4 h1{
     font-size: 45px;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 #section-4 p{
     font-size: 20px;
     color: #9d9d9d;
     display: block;
-    text-align: left;
+    text-align: justify;
 }
 
 #section-4 img{
@@ -200,6 +201,7 @@ body{
     font-size: 45px;
     margin-bottom: 20px;
     margin-right: -60%;
+    margin-top: 0px;
     text-align: right;
 }
 
@@ -208,7 +210,8 @@ body{
     margin-right: -60%;
     color: #9d9d9d;
     display: block;
-    text-align: right;
+    direction:rtl;
+    text-align:justify;
 }
 
 #section-5 img{
@@ -219,7 +222,7 @@ body{
 #section-6{
     background-image: url("images/section-bg1.jpg");
     background-repeat: no-repeat;
-    padding: 40px 20px 50px 320px;
+    padding: 30px 20px 50px 320px;
     display: block;
     margin-bottom: 4%;
 }
@@ -283,15 +286,23 @@ footer{
     background-color: black;
     clear: both;
     position: relative;
-    height: 210px;
+    height: 230px;
     text-align: center;
+    border-top: 7px solid #f15555;
+    border-bottom: 50px solid #f15555;
 }
 
 footer h1{
     font-family: 'Lobster', cursive;
     color:#f15555;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 5px;
+}
+
+footer span{
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
 }
 
 .footer-link a {
@@ -308,7 +319,7 @@ footer h1{
 
 .footer-cpyright a,p{
     color: white;
-    font-size: 13px;
-    margin-top: 40px;
+    font-size: 15px;
+    margin-top: 71px;
     text-decoration: none;
 }
